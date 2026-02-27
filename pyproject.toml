@@ -7,6 +7,9 @@ authors = [
 description = "An opinionated library for making simple panels in Pygame-CE."
 readme = "README.md"
 requires-python = ">=3.10"
+dependencies = [
+    "pygame-ce>=2.5.6",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
