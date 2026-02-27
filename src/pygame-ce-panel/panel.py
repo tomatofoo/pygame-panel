@@ -370,6 +370,9 @@ class Panel(object):
         for widget in self._widgets:
             widget.scroll = self._scroll
 
+    def add_button(self: Self) -> None:
+        pass
+
     def handle_event(self: Self, event: pg.Event) -> None:
         for widget in self._widgets:
             widget.handle_event(event)
